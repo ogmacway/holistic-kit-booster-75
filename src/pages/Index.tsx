@@ -763,7 +763,11 @@ const Index = () => {
                     </p>
                     
                     <div className="mb-4 md:mb-6">
-                      <p className="text-3xl sm:text-4xl md:text-5xl font-bold text-green-600 mb-1 md:mb-2 flex items-center justify-center gap-1"><span className="text-green-600 text-3xl sm:text-4xl md:text-5xl font-extrabold">R$ 24,90</span> <span className="text-lg sm:text-xl md:text-2xl font-bold text-wellness-dark">á vista</span> <span className="text-base sm:text-lg md:text-xl text-wellness-dark">ou <span className="text-green-600 font-bold text-sm sm:text-base md:text-lg">4x R$ 6,96</span></span></p>
+                      <p className="text-center leading-tight">
+                        <span className="text-green-600 text-2xl sm:text-3xl md:text-5xl font-extrabold">R$ 24,90</span>
+                        <span className="text-wellness-dark text-sm sm:text-lg md:text-2xl font-bold ml-1 mr-2">à vista</span>
+                        <span className="text-wellness-dark text-sm sm:text-base md:text-xl whitespace-nowrap">ou <span className="text-green-600 font-bold">4x R$ 6,96</span></span>
+                      </p>
                     </div>
 
                     <RainbowButton 
