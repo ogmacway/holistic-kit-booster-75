@@ -1,0 +1,137 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 322 25% 98%;
+    --foreground: 322 30% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 322 30% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 322 30% 15%;
+
+    --primary: 322 57% 34%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 322 25% 95%;
+    --secondary-foreground: 322 30% 25%;
+
+    --muted: 322 20% 96%;
+    --muted-foreground: 322 15% 55%;
+
+    --accent: 344 83% 80%;
+    --accent-foreground: 322 30% 15%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 322 25% 90%;
+    --input: 322 25% 94%;
+    --ring: 322 57% 34%;
+
+    /* Wellness theme colors - Nova paleta #882554 e #ef4674 */
+    --wellness-primary: 322 57% 34%;
+    --wellness-secondary: 344 83% 61%;
+    --wellness-accent: 344 83% 80%;
+    --wellness-light: 322 25% 95%;
+    --wellness-dark: 322 57% 25%;
+
+    /* Rainbow button colors */
+    --color-1: 0 100% 63%;
+    --color-2: 270 100% 63%;
+    --color-3: 210 100% 63%;
+    --color-4: 195 100% 63%;
+    --color-5: 90 100% 63%;
+
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(322 57% 34%), hsl(344 83% 61%));
+    --gradient-section: linear-gradient(180deg, hsl(322 25% 98%), hsl(322 20% 96%));
+    --gradient-pink: linear-gradient(135deg, hsl(344 83% 80%), hsl(344 70% 85%));
+    --gradient-cta: linear-gradient(135deg, hsl(344 83% 61%), hsl(322 57% 40%));
+    
+    /* Shadows */
+    --shadow-wellness: 0 10px 30px -10px hsl(322 57% 34% / 0.2);
+    --shadow-card: 0 4px 20px -4px hsl(322 40% 30% / 0.1);
+
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 322 30% 8%;
+    --foreground: 344 20% 95%;
+
+    --card: 322 30% 8%;
+    --card-foreground: 344 20% 95%;
+
+    --popover: 322 30% 8%;
+    --popover-foreground: 344 20% 95%;
+
+    --primary: 344 83% 70%;
+    --primary-foreground: 322 30% 15%;
+
+    --secondary: 322 20% 15%;
+    --secondary-foreground: 344 20% 95%;
+
+    --muted: 322 20% 15%;
+    --muted-foreground: 344 15% 65%;
+
+    --accent: 322 20% 15%;
+    --accent-foreground: 344 20% 95%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 344 20% 95%;
+
+    --border: 322 20% 15%;
+    --input: 322 20% 15%;
+    --ring: 344 83% 70%;
+    --sidebar-background: 322 30% 8%;
+    --sidebar-foreground: 344 20% 95%;
+    --sidebar-primary: 322 57% 50%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 322 20% 15%;
+    --sidebar-accent-foreground: 344 20% 95%;
+    --sidebar-border: 322 20% 15%;
+    --sidebar-ring: 344 83% 70%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+  
+}
