@@ -31,7 +31,28 @@ const Index = () => {
   const scrollToOffer = () => {
     const offerSection = document.getElementById('offer-section');
     if (offerSection) {
-      offerSection.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      const targetPosition = offerSection.offsetTop - 80; // Offset para não cobrir o conteúdo
+      const startPosition = window.pageYOffset;
+      const distance = targetPosition - startPosition;
+      const duration = 1200; // Duração mais lenta (1.2 segundos)
+      let start: number | null = null;
+
+      function animation(currentTime: number) {
+        if (start === null) start = currentTime;
+        const timeElapsed = currentTime - start;
+        const run = ease(timeElapsed, startPosition, distance, duration);
+        window.scrollTo(0, run);
+        if (timeElapsed < duration) requestAnimationFrame(animation);
+      }
+
+      function ease(t: number, b: number, c: number, d: number) {
+        // Função de easing cubic-out para suavidade natural
+        t /= d;
+        t--;
+        return c * (t * t * t + 1) + b;
+      }
+
+      requestAnimationFrame(animation);
     }
   };
 
