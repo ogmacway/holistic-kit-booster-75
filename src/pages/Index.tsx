@@ -4,7 +4,6 @@ import { RainbowButton } from '@/components/ui/rainbow-button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { TextShimmer } from '@/components/ui/text-shimmer';
-import { SplashCursor } from '@/components/ui/splash-cursor';
 import CountdownTimer from '@/components/CountdownTimer';
 import ToolIcon from '@/components/ToolIcon';
 import TestimonialCard from '@/components/TestimonialCard';
@@ -108,7 +107,6 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      <SplashCursor />
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center bg-gradient-hero overflow-hidden">
         <div className="absolute inset-0">
