@@ -302,7 +302,7 @@ const Index = () => {
               <CardContent className="p-4 md:p-6 flex flex-col md:flex-row gap-4 md:gap-6 items-center">
                 <div className="flex-shrink-0 w-full md:w-48">
                   <img 
-                    src="/lovable-uploads/63cbdad7-8339-45af-8999-45ac7e76d79d.png" 
+                    src="/lovable-uploads/b0bc6d19-799e-4f3f-b1f8-83e7c9862eb7.png" 
                     alt="Florais de Impacto"
                     className="w-full h-auto rounded-lg"
                   />
@@ -327,8 +327,8 @@ const Index = () => {
               <CardContent className="p-4 md:p-6 flex flex-col md:flex-row gap-4 md:gap-6 items-center">
                 <div className="flex-shrink-0 w-full md:w-48">
                   <img 
-                    src="/lovable-uploads/8deca40c-324e-4b1c-abc5-3195438bf137.png" 
-                    alt="50 Meditações Guiadas"
+                    src="/lovable-uploads/d2effd2c-43bf-4dd8-a10f-91bc7a068002.png" 
+                    alt="50 Meditações Prontas"
                     className="w-full h-auto rounded-lg"
                   />
                 </div>
@@ -352,7 +352,7 @@ const Index = () => {
               <CardContent className="p-4 md:p-6 flex flex-col md:flex-row gap-4 md:gap-6 items-center">
                 <div className="flex-shrink-0 w-full md:w-48">
                   <img 
-                    src="/lovable-uploads/442820db-ea18-4868-a3cd-7cf1a2399af6.png" 
+                    src="/lovable-uploads/ba965e3b-fb09-4fc8-9f81-ba3467c96f41.png" 
                     alt="Oráculo do Perdão"
                     className="w-full h-auto rounded-lg"
                   />
@@ -377,7 +377,7 @@ const Index = () => {
               <CardContent className="p-4 md:p-6 flex flex-col md:flex-row gap-4 md:gap-6 items-center">
                 <div className="flex-shrink-0 w-full md:w-48">
                   <img 
-                    src="/lovable-uploads/8c4feb9f-dc9e-4a86-8f71-b114743396ab.png" 
+                    src="/lovable-uploads/6114ccb2-469f-4126-bf21-e70322a35f04.png" 
                     alt="Numerologia Prática"
                     className="w-full h-auto rounded-lg"
                   />
@@ -402,7 +402,7 @@ const Index = () => {
               <CardContent className="p-4 md:p-6 flex flex-col md:flex-row gap-4 md:gap-6 items-center">
                 <div className="flex-shrink-0 w-full md:w-48">
                   <img 
-                    src="/lovable-uploads/795e82da-be4c-4045-bef7-c204d59e0636.png" 
+                    src="/lovable-uploads/bcda3992-c254-45c2-9799-67587e27d46f.png" 
                     alt="Guia de Leitura Rápida de Mapa Astral"
                     className="w-full h-auto rounded-lg"
                   />
@@ -427,7 +427,7 @@ const Index = () => {
               <CardContent className="p-4 md:p-6 flex flex-col md:flex-row gap-4 md:gap-6 items-center">
                 <div className="flex-shrink-0 w-full md:w-48">
                   <img 
-                    src="/lovable-uploads/03eb9e3c-9dd9-43eb-a5fa-9b95902de4c2.png" 
+                    src="/lovable-uploads/f570b8f6-1fcf-42f8-a33d-3018b931e92e.png" 
                     alt="Tarô Terapêutico Pronto"
                     className="w-full h-auto rounded-lg"
                   />
@@ -452,7 +452,7 @@ const Index = () => {
               <CardContent className="p-4 md:p-6 flex flex-col md:flex-row gap-4 md:gap-6 items-center">
                 <div className="flex-shrink-0 w-full md:w-48">
                   <img 
-                    src="/lovable-uploads/e07bb52f-61a3-4feb-ab3d-8b8e52026104.png" 
+                    src="/lovable-uploads/adacdc22-660c-450c-93a7-e7080c05a50a.png" 
                     alt="Radiestesia Total"
                     className="w-full h-auto rounded-lg"
                   />
@@ -477,7 +477,7 @@ const Index = () => {
               <CardContent className="p-4 md:p-6 flex flex-col md:flex-row gap-4 md:gap-6 items-center">
                 <div className="flex-shrink-0 w-full md:w-48">
                   <img 
-                    src="/lovable-uploads/d2c7bbdd-7f16-4f1a-a779-7efabffabc7e.png" 
+                    src="/lovable-uploads/d23cc9a5-25f5-4236-8b1a-de22248a5904.png" 
                     alt="Genograma Terapêutico Familiar"
                     className="w-full h-auto rounded-lg"
                   />
@@ -612,13 +612,44 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Testimonials */}
+      {/* VSL Section */}
       <section className="py-12 md:py-20 bg-gradient-section">
         <div className="container mx-auto px-4">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-4 md:mb-6 text-wellness-dark">
+          <div className="max-w-4xl mx-auto text-center">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6 text-wellness-dark">
+              Veja Como Este Kit Vai Transformar Suas Sessões
+            </h2>
+            <p className="text-base md:text-lg text-muted-foreground mb-8 md:mb-12 max-w-3xl mx-auto">
+              Assista ao vídeo e descubra como centenas de terapeutas estão revolucionando seus atendimentos com essas ferramentas práticas e poderosas.
+            </p>
+            
+            {/* Video Container */}
+            <div className="relative w-full max-w-4xl mx-auto">
+              <div className="relative pb-[56.25%] h-0 overflow-hidden rounded-xl shadow-2xl bg-black">
+                <iframe 
+                  className="absolute top-0 left-0 w-full h-full"
+                  src="https://www.youtube.com/embed/2rqeQnw1FHU?si=ZtTIpOi_VHEetoeg&controls=0" 
+                  title="Kit Premium de Ferramentas Holísticas - VSL"
+                  frameBorder="0" 
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                  referrerPolicy="strict-origin-when-cross-origin" 
+                  allowFullScreen
+                />
+              </div>
+            </div>
+            
+
+          </div>
+        </div>
+      </section>
+
+      {/* Testimonials */}
+      <section className="py-12 md:py-20 bg-gradient-hero">
+        <div className="container mx-auto px-4">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-4 md:mb-6 text-white">
             Depoimentos de quem já transformou suas sessões com a nossa Coleção Terapêutica Premium
           </h2>
-          <p className="text-base md:text-lg text-muted-foreground text-center mb-8 md:mb-12 max-w-4xl mx-auto">
+          <p className="text-base md:text-lg text-white/90 text-center mb-8 md:mb-12 max-w-4xl mx-auto">
             Veja como este conjunto de ferramentas práticas e poderosas tem transformado as sessões de terapeutas como você, trazendo resultados rápidos e reais!
           </p>
           
@@ -742,86 +773,73 @@ const Index = () => {
                       <span className="text-wellness-primary font-bold text-base md:text-lg flex-shrink-0">✓</span>
                       <span className="text-xs sm:text-sm md:text-base text-wellness-dark leading-snug">Genograma Terapêutico Familiar – Modelos + Guia Prático de Aplicação</span>
                     </div>
-                    <div className="flex items-start space-x-3 py-2 border-b border-gray-100">
-                      <span className="text-wellness-primary font-bold text-base md:text-lg flex-shrink-0">✓</span>
-                      <span className="text-xs sm:text-sm md:text-base text-wellness-dark leading-snug">Stories Magnéticos – 10 Fórmulas de Stories Que Vendem Sem Parecer Venda</span>
-                    </div>
-                    <div className="flex items-start space-x-3 py-2 border-b border-gray-100">
-                      <span className="text-wellness-primary font-bold text-base md:text-lg flex-shrink-0">✓</span>
-                      <span className="text-xs sm:text-sm md:text-base text-wellness-dark leading-snug">Mensagens Magnéticas: Roteiros de WhatsApp Para Conectar e Vender Sessões</span>
-                    </div>
-                    <div className="flex items-start space-x-3 py-2 border-b border-gray-100">
-                      <span className="text-wellness-primary font-bold text-base md:text-lg flex-shrink-0">✓</span>
-                      <span className="text-xs sm:text-sm md:text-base text-wellness-dark leading-snug">Caderno Prático de TCC para Depressão: 10 Intervenções Imediatas Para Aplicar em Sessão</span>
-                    </div>
-                    <div className="flex items-start space-x-3 py-2 border-b border-gray-100">
-                      <span className="text-wellness-primary font-bold text-base md:text-lg flex-shrink-0">✓</span>
-                      <span className="text-xs sm:text-sm md:text-base text-wellness-dark leading-snug">Fichas Terapêuticas Editáveis: Modelos Profissionais Para Personalizar</span>
-                    </div>
-                    <div className="flex items-start space-x-3 py-2">
-                      <span className="text-wellness-primary font-bold text-base md:text-lg flex-shrink-0">✓</span>
-                      <span className="text-xs sm:text-sm md:text-base text-wellness-dark leading-snug">Recepção Terapêutica Premium: Kit de Boas-Vindas Para Novos Pacientes</span>
+                    
+                    {/* Bônus */}
+                    <div className="pt-4 border-t-2 border-purple-200">
+                      <h4 className="font-bold text-purple-700 mb-3 text-sm md:text-base">BÔNUS ESPECIAIS:</h4>
+                      <div className="flex items-start space-x-3 py-2 border-b border-gray-100">
+                        <span className="text-purple-600 font-bold text-base md:text-lg flex-shrink-0">✓</span>
+                        <span className="text-xs sm:text-sm md:text-base text-wellness-dark leading-snug">Stories Magnéticos – 10 Fórmulas de Stories Que Vendem Sem Parecer Venda</span>
+                      </div>
+                      <div className="flex items-start space-x-3 py-2 border-b border-gray-100">
+                        <span className="text-purple-600 font-bold text-base md:text-lg flex-shrink-0">✓</span>
+                        <span className="text-xs sm:text-sm md:text-base text-wellness-dark leading-snug">Mensagens Magnéticas: Roteiros de WhatsApp Para Conectar e Vender Sessões</span>
+                      </div>
+                      <div className="flex items-start space-x-3 py-2 border-b border-gray-100">
+                        <span className="text-purple-600 font-bold text-base md:text-lg flex-shrink-0">✓</span>
+                        <span className="text-xs sm:text-sm md:text-base text-wellness-dark leading-snug">Caderno Prático de TCC para Depressão: 10 Intervenções Imediatas Para Aplicar em Sessão</span>
+                      </div>
+                      <div className="flex items-start space-x-3 py-2 border-b border-gray-100">
+                        <span className="text-purple-600 font-bold text-base md:text-lg flex-shrink-0">✓</span>
+                        <span className="text-xs sm:text-sm md:text-base text-wellness-dark leading-snug">Fichas Terapêuticas Editáveis: Modelos Profissionais Para Personalizar</span>
+                      </div>
+                      <div className="flex items-start space-x-3 py-2">
+                        <span className="text-purple-600 font-bold text-base md:text-lg flex-shrink-0">✓</span>
+                        <span className="text-xs sm:text-sm md:text-base text-wellness-dark leading-snug">Recepção Terapêutica Premium: Kit de Boas-Vindas Para Novos Pacientes</span>
+                      </div>
                     </div>
                   </div>
                 </div>
-
-                {/* Card de preço com imagem */}
-                <div className="w-full flex flex-col items-center order-2 lg:order-2">
-                  <Card className="w-full max-w-sm mx-auto border-wellness-primary border-2 shadow-wellness">
-                    <CardContent className="p-4 md:p-6 lg:p-8 text-center">
-                      <div className="mb-4 md:mb-6">
-                        <img 
-                          src="/lovable-uploads/915517d8-3a59-4738-9c94-c53e0cf5dc6d.png" 
-                          alt="Kit de Ferramentas Premium" 
-                          className="w-full max-w-[200px] md:max-w-xs mx-auto rounded-lg shadow-md"
-                        />
-                      </div>
-                      
-                    <p className="text-xs sm:text-sm md:text-base mb-4 text-wellness-dark leading-snug">
-                      Adquirindo cada material separadamente, você pagaria um total de <span className="text-red-600 text-xl md:text-2xl font-extrabold">R$ 440,00</span>, mas hoje, nessa oferta especial você vai pagar apenas:
+                
+                {/* Pricing */}
+                <div className="w-full order-2 lg:order-2 mt-6 lg:mt-0">
+                  <div className="bg-gradient-to-br from-purple-50 to-pink-50 p-4 md:p-6 rounded-xl border-2 border-purple-200 text-center">
+                    <p className="text-sm md:text-base text-gray-600 mb-3">
+                      Adquirindo cada material separadamente, você pagaria um total de <span className="font-bold text-red-600 line-through">R$ 440,00</span>, mas hoje, nessa oferta especial você vai pagar apenas:
                     </p>
                     
-                    <div className="mb-4 md:mb-6">
-                      <p className="text-center leading-tight">
-                        <span className="text-green-600 text-2xl sm:text-3xl md:text-5xl font-extrabold">R$ 24,90</span>
-                        <span className="text-wellness-dark text-sm sm:text-lg md:text-2xl font-bold ml-1 mr-2">à vista</span>
-                        <span className="text-wellness-dark text-sm sm:text-base md:text-xl whitespace-nowrap">ou <span className="text-green-600 font-bold">4x R$ 6,96</span></span>
+                    <div className="mb-4">
+                      <div className="text-3xl md:text-4xl lg:text-5xl font-bold text-green-600 mb-2">
+                        R$ 24,90
+                      </div>
+                      <p className="text-sm md:text-base text-gray-600">
+                        à vista ou <span className="font-semibold">4x R$ 6,96</span>
                       </p>
                     </div>
-
+                    
                     <RainbowButton 
-                      className="w-full text-sm sm:text-base md:text-lg lg:text-xl py-3 md:py-4 lg:py-6 px-4"
-                      onClick={() => window.open('https://go.pepperpay.com.br/icomf', '_blank')}
+                      className="w-full text-sm sm:text-base md:text-lg py-3 md:py-4 px-4 md:px-6 mb-4"
+                      onClick={() => window.open('https://pay.kiwify.com.br/7aqZOGJ', '_blank')}
                     >
                       QUERO O KIT DE FERRAMENTAS PREMIUM
                     </RainbowButton>
-                  </CardContent>
-                  </Card>
-                </div>
-              </div>
-            </div>
-            
-            
-            {/* Card de Garantia */}
-            <div className="mt-6 md:mt-8 max-w-4xl mx-auto">
-              <div className="bg-white p-6 md:p-8 rounded-xl shadow-lg">
-                <div className="flex flex-col md:flex-row items-center gap-6 md:gap-8">
-                  {/* Imagem da garantia */}
-                  <div className="flex-shrink-0">
-                    <img 
-                      src="/lovable-uploads/1a384062-9283-4c87-83d3-34b0412c4a0d.png" 
-                      alt="Garantia de 14 dias" 
-                      className="w-24 h-24 md:w-32 md:h-32 object-contain"
-                    />
+                    
+                    <div className="flex items-center justify-center gap-2 text-xs md:text-sm text-gray-500">
+                      <Shield className="w-4 h-4" />
+                      <span>Garantia Incondicional de 14 dias</span>
+                    </div>
+                    <p className="text-xs text-gray-500 mt-2">
+                      Experimente sem riscos! Se as ferramentas não agregarem valor às suas sessões, devolvemos 100% do seu investimento.
+                    </p>
                   </div>
                   
-                  {/* Texto da garantia */}
-                  <div className="flex-1 text-center md:text-left">
-                    <h3 className="text-xl md:text-2xl lg:text-3xl font-bold text-wellness-primary mb-3">
-                      Garantia Incondicional de 14 dias
-                    </h3>
-                    <p className="text-base md:text-lg text-wellness-dark leading-relaxed">
-                      Experimente sem riscos! Se as ferramentas não agregarem valor às suas sessões, devolvemos 100% do seu investimento.
+                  <div className="mt-4 p-3 bg-yellow-50 border border-yellow-200 rounded-lg">
+                    <div className="flex items-center gap-2 mb-2">
+                      <Heart className="w-4 h-4 text-red-500" />
+                      <span className="font-semibold text-sm text-gray-700">Acesso Imediato</span>
+                    </div>
+                    <p className="text-xs text-gray-600">
+                      Após a confirmação do pagamento, você receberá o acesso completo ao kit em seu e-mail em até 5 minutos.
                     </p>
                   </div>
                 </div>
@@ -832,58 +850,38 @@ const Index = () => {
       </section>
 
       {/* FAQ Section */}
-      <FAQSection />
-
-      {/* Call to Action after FAQ */}
-      <section className="py-8 md:py-20 bg-gradient-hero relative overflow-hidden text-center">
-        {/* Background decorative elements */}
-        <div className="absolute inset-0 opacity-10">
-          <div className="absolute top-10 left-10 w-20 h-20 border-2 border-white rounded-full"></div>
-          <div className="absolute top-32 right-20 w-8 h-8 bg-white rounded-full"></div>
-          <div className="absolute bottom-20 left-1/4 w-16 h-16 border-2 border-white rotate-45"></div>
-          <div className="absolute top-1/2 right-10 w-12 h-12 bg-white rounded-full"></div>
-          <div className="absolute bottom-32 right-1/3 w-6 h-6 border-2 border-white rounded-full"></div>
-          <div className="absolute top-20 left-1/3 w-4 h-4 bg-white rotate-45"></div>
-          <div className="absolute bottom-40 left-20 w-10 h-10 border-2 border-white"></div>
-        </div>
-        
-        <div className="container mx-auto px-4 relative z-10">
-          <div className="max-w-4xl mx-auto">
-            <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl mb-4 md:mb-6 text-white font-semibold px-2 leading-relaxed">
-              Não deixe essa oportunidade passar!
-            </p>
-            <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl mb-4 md:mb-6 text-white font-semibold px-2 leading-relaxed">
-              Acesse agora o kit completo e transforme suas sessões com mais impacto e resultados!
-            </p>
-            <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl mb-8 md:mb-10 text-white font-semibold px-2 leading-relaxed">
-              Clique no botão abaixo e garanta o seu agora!
-            </p>
-            
-            {/* Seta apontando para o botão */}
-            <div className="flex justify-center mb-4">
-              <ArrowDownCircle className="w-12 h-12 md:w-16 md:h-16 text-white animate-bounce" />
-            </div>
-            
-            <RainbowButton 
-              className="w-full max-w-md mx-auto text-sm sm:text-base md:text-lg lg:text-xl px-4 sm:px-6 md:px-8 lg:px-12 py-3 sm:py-4 md:py-6 hover:scale-110 transition-all duration-500 ease-out shadow-lg hover:shadow-2xl"
-              onClick={scrollToOffer}
-            >
-              QUERO O KIT DE FERRAMENTAS PREMIUM
-            </RainbowButton>
-          </div>
+      <section className="py-12 md:py-20 bg-gradient-section">
+        <div className="container mx-auto px-4">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-8 md:mb-12 text-wellness-dark">
+            Perguntas Frequentes
+          </h2>
+          <FAQSection />
         </div>
       </section>
 
-      {/* Footer - Copyright */}
-      <footer className="py-8 bg-wellness-dark text-center">
+      {/* Final CTA */}
+      <section className="py-12 md:py-20 bg-gradient-hero text-center">
         <div className="container mx-auto px-4">
-          <p className="text-sm text-white/70">
-            © 2025 Ferramentas Holísticas Premium. Todos os direitos reservados.
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6 text-white">
+            Não deixe essa oportunidade passar!
+          </h2>
+          <p className="text-lg md:text-xl text-white/90 mb-6 md:mb-8 max-w-3xl mx-auto">
+            Acesse agora o kit completo e transforme suas sessões com mais impacto e resultados!
           </p>
+          <p className="text-base md:text-lg text-white/80 mb-6 md:mb-8">
+            Clique no botão abaixo e garanta o seu agora!
+          </p>
+          <RainbowButton 
+            className="text-sm sm:text-base md:text-lg lg:text-xl py-3 md:py-4 lg:py-6 px-6 md:px-8"
+            onClick={() => window.open('https://pay.kiwify.com.br/7aqZOGJ', '_blank')}
+          >
+            QUERO O KIT DE FERRAMENTAS PREMIUM
+          </RainbowButton>
         </div>
-      </footer>
+      </section>
     </div>
   );
 };
 
 export default Index;
+
